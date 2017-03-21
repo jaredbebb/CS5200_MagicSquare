@@ -29,13 +29,13 @@ void SquareController::Controller(){
         return;
     }
     if(n%4 != 0 && n%2 == 0){
-        Even mainDoublySinglyEvenSquare1;
-        mainDoublySinglyEvenSquare1.doublyEven(n);
+        Even singlyEvenSquare;
+        singlyEvenSquare.doublyEven(n);
         return;
     }
     if(n%4 == 0){
-        Even mainDoublySinglyEvenSquare;
-        mainDoublySinglyEvenSquare.doublyEven(n);
+        Even doublyEvenSquare;
+        doublyEvenSquare.doublyEven(n);
         return;
     }
     else{
